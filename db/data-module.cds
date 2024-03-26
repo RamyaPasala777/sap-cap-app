@@ -1,4 +1,5 @@
 namespace demo.db;
+
 entity Employee{
     key ID:UUID;
     fName:String;
