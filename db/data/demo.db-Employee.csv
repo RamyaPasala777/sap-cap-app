@@ -1,2 +1,2 @@
-ID,fName,lName,dob
-c0717010-8ca5-428f-aa7b-9ce17edf014a,Malireddy,Charan,2004-05-06
+ID,fName,lName,dob,gender,contractStarted,email,phone,address_ID
+2b2f852b-0442-4632-9e1d-550fc5e6d497,Naveen,Malireddy,2002-05-06,Male,20012-01-01,malireddyNaveen@gmail.com,9290144762,2b2v852b-0442-4632-9e1d-550fc5e6d497
