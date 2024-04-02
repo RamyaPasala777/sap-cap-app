@@ -8,7 +8,7 @@ Content-Type: application/json
 {
       "fName": "Charan",
       "lName": "Malireddy",
-      "dob": "2004-06-05",
+      "DOB": "2004-06-05",
       "gender": "Male",
       "contractStarted": null,
       "email": "malireddycharan@gmail.com",
@@ -34,4 +34,7 @@ DELETE http://localhost:4004/EmployeeSRV/Employee/2b2f852b-0442-4632-9e1d-550fc5
 
 ### Delete address
 DELETE http://localhost:4004/EmployeeSRV/Address/da6f309a-1240-42e1-ac00-3dc5607b5bf3 HTTP/1.1
+
+###Get request
+GET http://localhost:4004/EmployeeSRV/Designation HTTP/1.1
 
