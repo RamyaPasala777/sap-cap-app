@@ -2,14 +2,14 @@ namespace demo.db;
 
 using {resuable.types as types} from './ReuseableTypes';
 using {
-    cuid,
-    managed
+  cuid,
+  managed
 } from '@sap/cds/common';
 
 
 @assert.unique: {
-    email: [email],
-    phone: [phone]
+  email: [email],
+  phone: [phone]
 }
 //sap provides lot off aspects
 entity Employee : cuid, managed {
@@ -18,6 +18,7 @@ entity Employee : cuid, managed {
   lName           : String;
   gender          : String;
   DOB             : Date;
+  age             : Integer;
   contractStarted : Date;
   email           : types.Email not null;
   phone           : types.PhoneNumber not null;
