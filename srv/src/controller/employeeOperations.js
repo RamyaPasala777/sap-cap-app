@@ -1,6 +1,8 @@
 const onBeforeEmployeeCreated=async (req)=>{
+
     const {DOB}=req.data
      const iage=_getAge(DOB);
+
          
          if(iage>=40){
              req.data.age=iage;
